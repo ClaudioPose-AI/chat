@@ -1,16 +1,35 @@
 const firebase = require('firebase');
 require('firebase/firestore');
 
+/*
+
+<script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCB_WmlBlQtBEXykLYalh2HkeKmAiaLxxY",
+    authDomain: "rudi-chatbot.firebaseapp.com",
+    databaseURL: "https://rudi-chatbot.firebaseio.com",
+    projectId: "rudi-chatbot",
+    storageBucket: "rudi-chatbot.appspot.com",
+    messagingSenderId: "469924925742"
+  };
+  firebase.initializeApp(config);
+</script>
+*/
+
+
 export class Firebase{
     constructor(){
         this._config = {
-            apiKey: "AIzaSyCuARTLETQlU7HnixRqQJiP0g8lxdnoblQ",
-            authDomain: "whattsapp-clone-3bb59.firebaseapp.com",
-            databaseURL: "https://whattsapp-clone-3bb59.firebaseio.com",
-            projectId: "whattsapp-clone-3bb59",
-            storageBucket: "",
-            messagingSenderId: "1018328994069"
+            apiKey: "AIzaSyCB_WmlBlQtBEXykLYalh2HkeKmAiaLxxY",
+            authDomain: "rudi-chatbot.firebaseapp.com",
+            databaseURL: "https://rudi-chatbot.firebaseio.com",
+            projectId: "rudi-chatbot",
+            storageBucket: "rudi-chatbot.appspot.com",
+            messagingSenderId: "469924925742"
         };
+
 
         this.init();
     };

@@ -186,7 +186,7 @@ export class WhatsAppController {
 
                 data.id = doc.id;
 
-                if (!this.el.panelMessagesContainer.querySelector('#'+ data.id)) {
+                //if (!this.el.panelMessagesContainer.querySelector('#'+ data.id)) {
 
                     let message = new Message();
 
@@ -198,7 +198,7 @@ export class WhatsAppController {
 
                     this.el.panelMessagesContainer.appendChild(view);
 
-                };
+                //};
 
             })
         })
