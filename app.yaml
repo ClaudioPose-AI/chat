@@ -1,4 +1,4 @@
 # [START runtime]
-runtime: nodejs10.7.0
+runtime: nodejs10
 env: flex
 # [END runtime]
