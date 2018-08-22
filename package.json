@@ -1,7 +1,7 @@
 {
-  "name": "curso-javascript-projeto-whatsapp-clone",
+  "name": "rudi-chatbot",
   "version": "1.0.0",
-  "description": "[![Hcode Treinamentos](https://www.hcode.com.br/res/img/hcode-200x100.png)](https://www.hcode.com.br)",
+  "description": "Rudi Chat",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hcodebr/curso-javascript-projeto-whatsapp-clone.git"
+    "url": "git+https://github.com/ClaudioPose-AI/chat.git"
   },
-  "author": "",
+  "author": "Claudio Pose",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hcodebr/curso-javascript-projeto-whatsapp-clone/issues"
+    "url": "rudi-chatbot.firebaseapp.com"
   },
-  "homepage": "https://github.com/hcodebr/curso-javascript-projeto-whatsapp-clone#readme",
+  "homepage": "rudi-chatbot.firebaseapp.com",
   "dependencies": {
     "firebase": "^5.4.0",
     "pdfjs-dist": "^2.0.489",
