@@ -1,7 +1,6 @@
 const path = require('path')
 
 module.exports = {
-
     entry : {
         app: './app.js',
         'pdf.worker': 'pdfjs-dist/build/pdf.worker.entry.js'
